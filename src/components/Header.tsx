@@ -96,7 +96,7 @@ export default function Header({ onExploreProjects }: HeaderProps) {
               <div>
                 <span className="block text-[10px] tracking-wider uppercase font-bold text-[#4a6b5d]">LinkedIn</span>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/bella-mcinnes-17835b2a6/"
                   target="_blank"
                   rel="noreferrer"
                   className="block text-sm font-semibold text-[#1b2421] hover:underline truncate"
