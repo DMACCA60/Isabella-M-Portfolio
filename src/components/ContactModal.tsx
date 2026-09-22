@@ -237,7 +237,7 @@ Best regards,
 
                     {/* LinkedIn */}
                     <a 
-                      href="https://linkedin.com/in/isabella-mcinnes" 
+                      href="https://www.linkedin.com/in/bella-mcinnes-17835b2a6/" 
                       target="_blank" 
                       rel="noreferrer" 
                       className="flex items-center justify-between bg-white border border-[#2a473d]/8 p-2.5 rounded-xl hover:border-[#2a473d]/30 hover:bg-[#2a473d]/5 transition-all shadow-sm group"
