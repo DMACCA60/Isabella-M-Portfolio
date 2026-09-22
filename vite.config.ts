@@ -4,7 +4,7 @@ import path from 'path';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/Isabella-M-Portfolio/',
+  base: '/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
