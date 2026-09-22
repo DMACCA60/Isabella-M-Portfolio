@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Playfair Display", serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --color-brand-primary: #2a473d; /* Elegant Forest/Sage Green */
+  --color-brand-secondary: #4a6b5d;
+  --color-brand-accent: #bda373; /* Sophisticated Ochre/Sand Gold */
+  --color-brand-muted: #e6e3dd; /* Warm gray/cream */
+  --color-brand-bg: #fcfbf9; /* Natural off-white */
+  --color-brand-dark: #1b2421; /* Charcoal with green tint */
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-brand-bg);
+    color: var(--color-brand-dark);
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+  }
+}
+
+/* Custom styles for map simulation and grid styling */
+.glass-panel {
+  background-color: rgba(252, 251, 249, 0.8);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(42, 71, 61, 0.08);
+}
+
+@media print {
+  /* Hide navigation, header, other main sections, and footer */
+  nav,
+  #overview,
+  #projects,
+  #speculative-kit,
+  footer {
+    display: none !important;
+  }
+
+  /* Reset layout constraints for the printable area */
+  body, html {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  #resume {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    background-color: #ffffff !important;
+  }
+}
+
