@@ -127,11 +127,21 @@ export const EXPERIENCE: ExperienceEntry[] = [
     ]
   },
   {
-    company: "Dobbies Garden Centre",
+    company: "Hadden Hill Nursery",
+    period: "June 2026 – Present",
+    role: "Nursery Assistant",
+    points: [
+      "Enforce health, safety and allergen awareness protocols",
+      "Coordinate daily communications between room leaders, maintaining professional service under fast-paced, high-pressure conditions"
+    ]
+  },
+  {
+    company: "Dobbies Garden Centres",
     period: "July 2024 – August 2025",
     role: "Customer Advisor (Part-Time)",
     points: [
-      "Balanced part-time employment with full-time degree studies, managing complex inventory data and training new staff on POS systems during a major expansion phase."
+      "Balanced part-time employment with full-time degree studies, managing complex inventory data and deliveries.",
+      "Trusted to train new staff on POS systems and center operations during a major expansion phase."
     ]
   },
   {
@@ -139,7 +149,9 @@ export const EXPERIENCE: ExperienceEntry[] = [
     period: "August 2022 – May 2023",
     role: "Hotel Receptionist",
     points: [
-      "Managed front-desk operations using the ONQ booking system, reconciling funds, resolving high-pressure customer conflicts, and executing emergency/fire safety protocols."
+      "Managed front-desk operations using the ONQ booking system, reconciling funds and handling guest data.",
+      "Resolved high-pressure customer conflicts, receiving multiple recommendations for professional service.",
+      "Trained in emergency protocols, including natural disaster response and fire safety management."
     ]
   }
 ];

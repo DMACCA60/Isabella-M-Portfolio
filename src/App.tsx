@@ -12,6 +12,16 @@ export default function App() {
   const [isContactOpen, setIsContactOpen] = useState<boolean>(false);
 
   useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('contact') === 'true') {
+      setIsContactOpen(true);
+      // Clean up the URL parameter cleanly
+      const newUrl = window.location.pathname + window.location.hash;
+      window.history.replaceState({}, '', newUrl);
+    }
+  }, []);
+
+  useEffect(() => {
     const handleScroll = () => {
       const sections = ['overview', 'projects', 'resume', 'speculative-kit'];
       const scrollPosition = window.scrollY + window.innerHeight / 3;
