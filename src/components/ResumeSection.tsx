@@ -89,7 +89,7 @@ export default function ResumeSection() {
     setIsGenerating(true);
     try {
       const link = document.createElement('a');
-      link.href = 'https://storage.cloud.google.com/my-app-assets-legaldm/Isabella%20McInnes%20CV%20Jan2026.pdf';
+      link.href = 'https://googleapis.com/my-app-assets-legaldm/Isabella%20McInnes%20CV%20Jan2026.pdf';
       link.target = '_blank';
       link.rel = 'noopener noreferrer';
       link.download = 'Isabella_McInnes_CV_Jan2026.pdf';
@@ -99,7 +99,7 @@ export default function ResumeSection() {
     } catch (err) {
       console.error('Direct PDF Download Error:', err);
       // Fallback: open in new tab
-      window.open('https://storage.cloud.google.com/my-app-assets-legaldm/Isabella%20McInnes%20CV%20Jan2026.pdf', '_blank');
+      window.open('https://googleapis.com/my-app-assets-legaldm/Isabella%20McInnes%20CV%20Jan2026.pdf', '_blank');
     } finally {
       setIsGenerating(false);
       setShowDownloadModal(false);
