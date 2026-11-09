@@ -8,7 +8,7 @@ export const CV_PROFILE = {
   phone: "07711864843",
   location: "Oxford / Reading (Willing to relocate)",
   linkedIn: "linkedin.com/in/isabella-mcinnes",
-  summary: "I'm a Geography Graduate & GIS Specialist passionate about environmental mapping and spatial data analysis, with proven commercial experience delivering Residential Agricultural Land Reports (RALR) within a consultancy environment, identifying environmental liabilities and flood zone designations. Highly skilled in processing Unmanned Aerial Vehicle-Structure from Motion (UAV-SfM) photogrammetry, building Digital Elevation Models (DEMs), and applying statistical modelling to understand climate resilience and geomorphic risk. Actively seeking a graduate role in environmental consultancy or geospatial surveying."
+  summary: "I'm a Geography Graduate & GIS Specialist passionate about environmental mapping and spatial data analysis, with proven commercial experience delivering Residential Agricultural Land Reports (RALR) within a consultancy environment, identifying environmental liabilities and flood zone designations. Highly skilled in processing Unmanned Aerial Vehicle-Structure from Motion (UAV-SfM) photogrammetry, building Digital Elevation Models (DEMs), and applying statistical modelling to understand climate resilience and geomorphic risk. I am currently seeking a graduate role where I can apply these skills to real-world environmental challenges."
 };
 
 export const PROJECTS: Project[] = [
