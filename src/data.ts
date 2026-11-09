@@ -220,8 +220,13 @@ export const AFFILIATIONS = [
     detail: "Includes access to ArcGIS Pro Advanced, Spatial Analyst, 3D Analyst, and the full Esri Training e-Learning catalogue for constant self-improvement."
   },
   {
+    title: "Network Member",
+    organization: "The Association for Geographic Information (AGI)",
+    detail: "Engaged with the UK's leading professional body for geographical information principles, networking, and industry best practices."
+  },
+  {
     title: "Key Qualifications",
     organization: "Professional Credentials",
-    detail: "Full Clean UK Driving License (2 years); "
+    detail: "Full Clean UK Driving License (2 years)"
   }
 ];
